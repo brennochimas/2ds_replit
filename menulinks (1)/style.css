@@ -1,0 +1,49 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #131316;
+  padding: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+a:hover {
+  transform: scala(1.1);
+}
+
+.vermelho {
+  color: #ff0000;
+}
+
+.verde {
+  color: #00ff00;
+}
+
+.azul {
+  color: #0000ff;
+}
+
+.amarelo {
+  color: #ffff00;
+}
+
+.conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
