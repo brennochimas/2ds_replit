@@ -1,0 +1,59 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+.box {
+  display: flex;
+  background-color: #850085;
+  padding: 20px;
+  color: white;
+}
+
+.col-e {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+align-items: center;
+  width: 35%;
+
+
+}
+.titulo{
+  font-size: 40px;
+  padding: 10px;
+  margin: 5;
+}
+
+.texto {
+  display: flex;
+  align-items: left;
+  text-align: left;
+  flex-direction: column;
+
+}
+.botao{
+  background-color: white;
+  color: purple;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+.col-d {
+   flex-direction: column;
+    justify-content: center;
+    display: flex;
+  align-items: center;
+    width: 70%;
+
+
+}
