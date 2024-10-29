@@ -1,0 +1,19 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.linha {
+   display: flex;
+   justify-content: space-around;
+
+ }
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+  }
